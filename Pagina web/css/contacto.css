@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #f0f0f0; 
+    color: #1a1a1a; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1a1a1a; 
+    color: #e0e0e0;
+    width: 100%;
+    position: fixed;
+    
+}
+
+ ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: 30px;
+}
+
+ a {
+    text-decoration: none;
+    color: #e0e0e0; 
+    font-weight: bold;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.formulario{
+    background-color: rgb(240, 238, 236);
+    max-width: 35%;
+    align-items: center;
+    margin: 5% auto;
+    border: 2px solid black;
+    padding: 20px;
+   
+}
+
+.formulario h1
+{
+    text-align: center;
+}
+
+.formulario form
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.formulario button 
+{
+    padding: 2px;
+    width: 100%;
+    border-radius: 6%;
+    cursor: pointer;
+    background-color: black;
+    color: #f5f0f0;
+}
+
+.formulario textarea {
+    width: 100%;
+    margin: 10px;    
+
+}
+
+.formulario input
+{
+    width: 100%;
+}
+
+.mapa
+{
+    background-color: rgb(13, 15, 15);
+    width: 100%;
+    padding: 20px 0;
+   
+}
+.mapa h2
+{
+ text-align: center;
+ color: #f5f0f0;
+}
+
+.mapa iframe
+{
+    width: 100%;
+    height: 300px;
+}
