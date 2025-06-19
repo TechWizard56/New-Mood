@@ -3,7 +3,7 @@ body {
     padding: 0px;
     font-family: sans-serif;
     background-color: #f0f0f0; 
-    color: #1a1a1a; 
+    color: #0e0d0d; 
 }
 
 header {
@@ -14,12 +14,11 @@ header {
     background-color: #1a1a1a; 
     color: #e0e0e0;
     width: 100%;
-    z-index: 1;
     position: fixed;
     
 }
 
-.barra ul {
+ ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -29,12 +28,11 @@ header {
     right: 30px;
 }
 
-.barra a {
+ a {
     text-decoration: none;
     color: #e0e0e0; 
     font-weight: bold;
 }
-
 main {
     padding-top: 80px;
 }
@@ -45,6 +43,9 @@ section {
     padding: 20px;
 }
 
+a{
+    color:#f5f5f5;
+}
 .acomodar{
  background-color: #ffffff; 
     color: #1a1a1a;
@@ -92,9 +93,78 @@ article button {
 article button:hover {
     background-color: #770d0d; 
 }
+.productos {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px; 
+    box-sizing: border-box;
+    margin-top: -20px;
+}
 
-.barra ul:hover {
- cursor: pointer;
-  transform: scale(1.02);
+.presentacion {
+     position: relative;
+    text-align: center;
+    height: auto;
+    min-height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0; 
+}
+
+.presentacion img {
+    width: 101%;
+    height: 300px; 
+    object-fit: cover;
+    position: absolute;
+    top: 0; 
+    z-index: 0;
+}
+
+.pr-texto {
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    top: 0%;
+}
+
+footer {
+    background-color: #0e0d0d;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-title {
+    font-size: 32px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.iconos {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.iconos li a {
+    color: white;
+    font-size: 110px; 
+    transition: color 0.3s ease;
+}
+
+.icono li a:hover {
+    color: #9b0b0b;
 }
 
